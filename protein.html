@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protein Calculator | FitCalc</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav>
+
+    <div class="logo">FitCalc</div>
+
+    <a href="index.html" class="nav-button">
+        ← Home
+    </a>
+
+</nav>
+
+<section class="calculator-page">
+
+<div class="calculator-card">
+
+<h1>💪 Protein Calculator</h1>
+
+<p class="calculator-description">
+Estimate how much protein you should eat every day.
+</p>
+
+<div class="form-group">
+
+<label>Weight (lb)</label>
+
+<input
+type="number"
+id="weight"
+placeholder="145">
+
+</div>
+
+<div class="form-group">
+
+<label>Goal</label>
+
+<select id="goal">
+
+<option value="cut">Lose Fat</option>
+
+<option value="maintain">Maintain Weight</option>
+
+<option value="bulk">Build Muscle</option>
+
+</select>
+
+</div>
+
+<button onclick="calculateProtein()">
+
+Calculate Protein
+
+</button>
+
+<div
+class="result-card"
+id="result-card"
+style="display:none;">
+
+<h2>Recommended Protein</h2>
+
+<h3 id="protein-result">
+
+0 g/day
+
+</h3>
+
+<p id="protein-message">
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="protein.js"></script>
+<footer>
+
+    <p>FitCalc © 2026</p>
+
+    <h3 class="signature">Onyekachi Ibe</h3>
+
+</footer>
+</body>
+</html>

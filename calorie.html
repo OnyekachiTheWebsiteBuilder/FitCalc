@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calorie Calculator | FitCalc</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav>
+
+    <div class="logo">
+        FitCalc
+    </div>
+
+    <a href="index.html" class="nav-button">
+        ← Home
+    </a>
+
+</nav>
+
+<section class="calculator-page">
+
+    <div class="calculator-card">
+
+        <h1>🔥 Calorie Calculator</h1>
+
+        <p class="calculator-description">
+
+            Estimate how many calories you should eat each day based on your body measurements and activity level.
+
+        </p>
+
+        <div class="form-group">
+
+            <label>Age</label>
+
+            <input
+                type="number"
+                id="age"
+                placeholder="Enter your age">
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Sex</label>
+
+            <select id="sex">
+
+                <option value="male">Male</option>
+
+                <option value="female">Female</option>
+
+            </select>
+
+        </div>
+
+        <div class="height-row">
+
+            <div class="form-group">
+
+                <label>Height (Feet)</label>
+
+                <input
+                    type="number"
+                    id="feet"
+                    placeholder="5">
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Height (Inches)</label>
+
+                <input
+                    type="number"
+                    id="inches"
+                    placeholder="8">
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Weight (lb)</label>
+
+            <input
+                type="number"
+                id="weight"
+                placeholder="145">
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Activity Level</label>
+
+           <select id="activity">
+
+    <option value="inactive">
+        Inactive (Little or no exercise)
+    </option>
+
+    <option value="low">
+        Low Active (Exercise 1–3 days/week)
+    </option>
+
+    <option value="active">
+        Active (Exercise 4–6 days/week)
+    </option>
+
+    <option value="very">
+        Very Active (Daily hard training)
+    </option>
+
+</select>
+
+        </div>
+
+        <div class="form-group">
+
+            <label>Goal</label>
+
+            <select id="goal">
+
+                <option value="maintain">Maintain Weight</option>
+
+                <option value="cut">Lose Fat</option>
+
+                <option value="bulk">Build Muscle</option>
+
+            </select>
+
+        </div>
+
+        <div id="error-message" class="error-message"></div>
+
+<button onclick="calculateCalories()">
+    Calculate Calories
+</button>
+        <div class="result-card" id="result-card" style="display:none;">
+
+    <h2>Your Daily Calories</h2>
+
+    <h3 id="calorie-result">
+        0 kcal
+    </h3>
+
+    <p id="goal-result">
+        Maintain Weight
+    </p>
+
+   <a href="macro.html" id="macroButton" class="button" style="margin-top:20px; display:block;">
+    Use in Macro Calculator →
+</a>
+
+</div>
+
+    </div>
+
+</section>
+
+<script src="calorie.js"></script>
+<footer>
+
+    <p>FitCalc © 2026</p>
+
+    <h3 class="signature">Onyekachi Ibe</h3>
+
+</footer>
+</body>
+
+</html>
