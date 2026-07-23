@@ -1491,3 +1491,80 @@ color:#666;
 }
 
 }
+/* ---------- Learn Page ---------- */
+
+.learn-page{
+    width:min(1100px,92%);
+    margin:60px auto;
+}
+
+.learn-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.learn-header h1{
+    font-size:3rem;
+    color:#3E2C23;
+    margin-bottom:15px;
+}
+
+.learn-header p{
+    font-size:1.1rem;
+    color:#666;
+    max-width:700px;
+    margin:auto;
+}
+
+.learn-grid{
+    display:grid;
+    gap:30px;
+}
+
+.learn-card{
+    background:white;
+    border-radius:22px;
+    padding:35px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    border:1px solid #ECE7DF;
+}
+
+.learn-card h2{
+    color:#8B5E3C;
+    margin-bottom:15px;
+    font-size:1.8rem;
+}
+
+.learn-card ul{
+    padding-left:25px;
+    margin-top:15px;
+}
+
+.learn-card li{
+    margin:8px 0;
+}
+
+.reference-box{
+    background:#F8F5F1;
+    border-left:5px solid #8B5E3C;
+    padding:20px;
+    border-radius:12px;
+    margin-top:20px;
+}
+
+.back-home{
+    display:inline-block;
+    margin-bottom:40px;
+    padding:14px 22px;
+    border:2px solid #8B5E3C;
+    border-radius:14px;
+    text-decoration:none;
+    color:#8B5E3C;
+    font-weight:700;
+    transition:.25s;
+}
+
+.back-home:hover{
+    background:#8B5E3C;
+    color:white;
+}
