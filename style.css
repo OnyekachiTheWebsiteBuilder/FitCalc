@@ -1569,14 +1569,18 @@ color:#666;
     color:white;
 }
 .logo-text{
-    font-size:2rem;
-    font-weight:800;
-    color:#8B5E3C;
+    font-size:2.1rem;
+    font-weight:900;
+    color:#3E2C23;
     text-decoration:none;
     letter-spacing:-1px;
     transition:.2s;
 }
 
+.logo-text span{
+    color:#8B5E3C;
+}
+
 .logo-text:hover{
-    color:#6F4A31;
+    opacity:.85;
 }
