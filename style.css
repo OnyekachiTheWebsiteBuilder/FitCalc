@@ -1327,3 +1327,48 @@ footer p{
 }
 
 }
+/* ABOUT PAGE */
+
+.about-page{
+
+padding:120px 0;
+
+}
+
+.about-card{
+
+width:min(850px,90%);
+
+margin:auto;
+
+background:white;
+
+padding:60px;
+
+border-radius:30px;
+
+box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+}
+
+.about-card h1{
+
+font-size:3rem;
+
+color:#3E2C23;
+
+margin-bottom:30px;
+
+}
+
+.about-card p{
+
+font-size:1.15rem;
+
+line-height:2;
+
+margin-bottom:25px;
+
+color:#666;
+
+}
