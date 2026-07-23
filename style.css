@@ -1249,3 +1249,81 @@ footer p{
     margin-top:25px;
 
 }
+
+
+
+
+
+/* ===========================
+   ABOUT SECTION
+=========================== */
+
+.about{
+
+    padding:100px 0;
+
+    background:#F7F3EE;
+
+}
+
+.about-container{
+
+    width:min(900px,90%);
+
+    margin:auto;
+
+    background:#FFFFFF;
+
+    padding:60px;
+
+    border-radius:30px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+    text-align:center;
+
+}
+
+.about h2{
+
+    font-size:2.8rem;
+
+    color:#3E2C23;
+
+    margin-bottom:25px;
+
+}
+
+.about p{
+
+    color:#666;
+
+    font-size:1.1rem;
+
+    line-height:1.9;
+
+    margin-bottom:25px;
+
+}
+
+.about strong{
+
+    color:#8B5E3C;
+
+}
+
+@media(max-width:768px){
+
+.about-container{
+
+    padding:35px;
+
+}
+
+.about h2{
+
+    font-size:2.2rem;
+
+}
+
+}
